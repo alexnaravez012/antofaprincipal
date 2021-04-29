@@ -10,6 +10,10 @@
     color: #ffffff;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .font-size-8 {
     font-size: 8px;
 }
@@ -62,6 +66,10 @@
     font-size: 20px;
 }
 
+.font-size-21 {
+    font-size: 21px;
+}
+
 .width-100 {
     width: 100px;
 }
@@ -106,12 +114,22 @@
     line-height: 5%;
 }
 
+.line-height-15 {
+    line-height: 15% !important;
+    padding-top: 5px;
+}
+
 .navbar {
-    height: 60px !important;
+    height: 70px !important;
     width: 100%;
     color: #ffffff;
     position: fixed;
     z-index: 300 !important;
+}
+
+.size-logo-antofa {
+    width: 100px;
+    margin-left: 30px;
 }
 
 .size-icon-caret-down {
@@ -128,19 +146,19 @@
 
 .image-search {
     position: relative;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .input-city {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     border-bottom: 1px solid white;
-    width: 370px;
+    width: 350px;
 }
 
 .input-city::placeholder {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     color: rgba(223, 223, 223, 0.63);
 }
 
@@ -156,4 +174,19 @@
     font-weight: 600;
     font-size: 13px;
     color: rgba(223, 223, 223, 0.63);
+}
+
+.button-search-properties {
+    background-color: #f21636;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.button-search-properties::placeholder {
+    outline: 0;
 }
