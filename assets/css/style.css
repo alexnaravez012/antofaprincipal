@@ -6,6 +6,10 @@
     color: #6d6d6d;
 }
 
+.color-grey-fonts-footer {
+    color: #777676;
+}
+
 .color-white {
     color: #ffffff;
 }
@@ -289,6 +293,104 @@
 
 .footer {
     background-color: #2F2C2E;
-    height: 500px;
     margin-top: 60px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.second-footer {
+    background-color: #E5E5E5;
+    padding-left: 318px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.third-footer {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.logo-antofa-footer {
+    width: 190px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.line-height-10 {
+    line-height: 23px;
+}
+
+.icons-social-media {
+    width: 38px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.icon-contact-us {
+    width: 125px;
+    cursor: pointer;
+}
+
+.icon-contact-us:focus {
+    outline: 0;
+}
+
+.input-modal-contact-us {
+    border: 1px solid #f21636;
+    width: 100%;
+    height: 20px;
+}
+
+.input-modal-contact-us::placeholder {
+    color: rgba(182, 182, 182, 0.609);
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+}
+
+.input-modal-contact-us-information {
+    border: 1px solid #f21636;
+    width: 100%;
+    height: 50px;
+}
+
+.input-modal-contact-us-information::placeholder {
+    color: rgb(141, 141, 141);
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+}
+
+.input-modal-contact-us {
+    outline: 0;
+}
+
+.button-send-modal-contact-us {
+    background-color: #f21636;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 11px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.button-send-modal-contact-us:focus {
+    outline: 0;
+}
+
+.modal-contact-us {
+    padding: 0px;
+    width: 380px;
+    height: 380px;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 25px;
 }
