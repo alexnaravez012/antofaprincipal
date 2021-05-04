@@ -170,7 +170,6 @@
 .size-icon-caret-down {
     width: 10px;
     margin-top: 4px;
-    margin-left: 10px;
 }
 
 .size-icon-user {
@@ -183,6 +182,16 @@
     margin-top: 70px;
     width: 100%;
     height: 250px;
+}
+
+.image-search-second {
+    margin-top: 70px;
+    width: 100%;
+    height: 150px;
+}
+
+.width-120 {
+    width: 120px;
 }
 
 .input-city {
@@ -322,6 +331,15 @@
     line-height: 23px;
 }
 
+.line-height-5 {
+    line-height: 5px;
+}
+
+.padding-horizontal-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .icons-social-media {
     width: 38px;
     margin-left: 15px;
@@ -393,4 +411,44 @@
     border-radius: 8px;
     padding-left: 20px;
     padding-right: 25px;
+}
+
+.apply-filters {
+    border: 1px solid rgba(189, 189, 189, 0.712);
+    background-color: white;
+    border-radius: 5px;
+    width: 140px;
+    height: 20PX;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.input-apply-filters {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 155px;
+    height: 25px;
+}
+
+.input-apply-filters::placeholder {
+    font-size: 11px;
+}
+
+.button-apply-filters {
+    background-color: #f21636;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    width: 155px;
+    font-size: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card-specific-property {
+    height: 140px;
+    width: 812px;
 }

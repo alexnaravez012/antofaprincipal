@@ -83,249 +83,379 @@
             </div>
         </div>
     </div>
-    <!-- zona de busqueda -->
-    <div style="position: relative;">
-        <img class="image-search" src="./assets/icons/2.png" alt="">
-        <div style="top: 100px; left: 30px; position: absolute;">
-            <h2 class="color-red uk-margin-remove uk-text-bold font-size-20" style="font-size: 30px;">Realiza tu búsqueda aquí</h2>
-        </div>
-        <div class="uk-flex uk-flex-middle" style="top: 165px; left: 30px; position: absolute;">
-            <div class="uk-flex uk-flex-middle cursor-pointer">
-                <h5 class="uk-margin-remove uk-text-bold color-white font-size-15">Tipo de inmueble</h5>
-                <img class="size-icon-caret-down" src="./assets/icons/15.png" alt="">
+    <!-- vista principal  -->
+    <div style="display: none;">
+        <!-- zona de busqueda -->
+        <div style="position: relative;">
+            <img class="image-search" src="./assets/icons/2.png" alt="">
+            <div style="top: 100px; left: 30px; position: absolute;">
+                <h2 class="color-red uk-margin-remove uk-text-bold font-size-20" style="font-size: 30px;">Realiza tu búsqueda aquí</h2>
             </div>
-            <div class="uk-flex uk-flex-middle cursor-pointer" style="margin-left: 40px;">
-                <h5 class="uk-margin-remove uk-text-bold color-white font-size-15">Tipo de inmueble</h5>
-                <img class="size-icon-caret-down" src="./assets/icons/15.png" alt="">
-            </div>
-        </div>
-        <div style="top: 205px; left: 30px; position: absolute;">
-            <input class="input-city" type="text" placeholder="Ciudad, Sector, Barrio">
-        </div>
-        <div class="uk-flex uk-flex-middle" style="top: 165px; left: 460px; position: absolute;">
-            <div class="uk-visible@l">
-                <h5 class="uk-margin-remove uk-text-bold color-red uk-text-center font-size-15" style="padding-right: 5px;">Metros cuadrados</h5>
-                <div class="uk-flex uk-flex-center">
-                    <div class="uk-flex uk-flex-middle cursor-pointer">
-                        <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
-                        <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
-                    </div>
+            <div class="uk-flex uk-flex-middle" style="top: 165px; left: 30px; position: absolute;">
+                <div class="uk-flex uk-flex-middle cursor-pointer">
+                    <h5 class="uk-margin-remove uk-text-bold color-white font-size-15 width-150">Tipo de inmueble</h5>
+                    <img class="size-icon-caret-down" src="./assets/icons/15.png" alt="">
                 </div>
-                <div class="uk-flex uk-flex-center">
-                    <input class="input-properties uk-text-center" type="text" placeholder="60 m²">
+                <div class="uk-flex uk-flex-middle cursor-pointer" style="margin-left: 32px;">
+                    <h5 class="uk-margin-remove uk-text-bold color-white font-size-15 width-150">Tipo de inmueble</h5>
+                    <img class="size-icon-caret-down" src="./assets/icons/15.png" alt="">
                 </div>
             </div>
-            <div class="uk-visible@m" style="margin-left: 35px;">
-                <h5 class="uk-margin-remove uk-text-bold color-red uk-text-center font-size-15" style="padding-right: 6px;">Habitaciones</h5>
-                <div class="uk-flex uk-flex-center">
-                    <div class="uk-flex uk-flex-middle cursor-pointer">
-                        <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
-                        <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <input class="input-properties uk-text-center" type="text" placeholder="5">
-                </div>
+            <div style="top: 205px; left: 30px; position: absolute;">
+                <input class="input-city" type="text" placeholder="Ciudad, Sector, Barrio">
             </div>
-            <div class="uk-visible@m" style="margin-left: 40px;">
-                <h5 class="uk-margin-remove uk-text-bold color-red uk-text-center font-size-15" style="padding-right: 10px;">Baños</h5>
-                <div class="uk-flex uk-flex-center">
-                    <div class="uk-flex uk-flex-middle cursor-pointer">
-                        <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
-                        <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <input class="input-properties uk-text-center" type="text" placeholder="2">
-                </div>
-            </div>
-        </div>
-        <div class="uk-visible@l" style="top: 165px; right: 160px; position: absolute;">
-            <h5 class="uk-margin-remove uk-text-bold color-red font-size-15">Precio</h5>
-            <h6 class="uk-margin-remove font-size-11 color-white line-height-15">85.000.000$</h6>
-            <div style="margin-top: 10px;">
-                <img style="position: relative; width: 230px; height: 20px; margin-top: 15px;" src="./assets/icons/18.png" alt="">
-                <img style="position: absolute; left: 35px; bottom: 9px; width: 13px;" src="./assets/icons/19.png" alt="">
-                <div class="uk-flex uk-flex-middle" style="position: relative; margin-top: 5px;">
-                    <h6 class="uk-margin-remove color-white font-size-10" style="position: absolute; left: -19px;">60 millones</h6>
-                    <h6 class="uk-margin-remove color-white font-size-10 width-100" style="position: absolute; left: 200px;">500 millones</h6>
-                </div>
-            </div>
-        </div>
-        <div style="top: 165px; right: 40px; position: absolute;">
-            <button class="button-search-properties">Buscar</button>
-            <h6 class="uk-margin-remove color-white font-size-9 uk-text-muted padding-vertical-10" style="padding-left: 9px;">Buscar por código</h6>
-        </div>
-    </div>
-    <!-- imagnes destacadas y recomendadas -->
-    <div>
-        <div class="uk-flex uk-flex-middle uk-flex-around" style="margin-top: 20px; margin-bottom: 10px;">
-            <h6 class="uk-margin-remove uk-text-bold uk-text-muted font-size-16" style="padding-left: 200px;">Inmuebles destacados</h6>
-            <h6 class="uk-margin-remove uk-text-bold uk-text-muted font-size-16" style="padding-right: 212px;">Inmuebles Recomendados</h6>
-        </div>
-        <div class="uk-flex uk-flex-center">
-            <div class="uk-flex uk-flex-middle">
-                <div>
-                    <div class="cards-estates" style="position: relative;">
-                        <img src="./assets/images/MOCKUP Antofa-42.jpg" alt="">
-                        <img class="icon-size-estate-outstanding" src="./assets/icons/20.png" alt="">
-                        <div class="box-red-card">
-                            <div style="margin-left: 3px; padding-top: 3px;">
-                                <h6 class="uk-flex uk-flex-middle uk-margin-remove card-location-label font-size-6 font-weight-500">BELLAVISTA 2</h6>
-                            </div>
-                            <div style="padding-left: 20px; padding-bottom: 10px;">
-                                <div style="margin-top: 5px;">
-                                    <h6 class="uk-margin-remove color-red uk-text-bold font-size-9 line-height-5">Apartamento en venta</h6>
-                                    <h6 class="uk-margin-remove color-red uk-text-bold font-size-9" style="padding-top: 3px;">Perdomo, Bogotá D.C.</h6>
-                                </div>
-                                <div class="padding-vertical-3">
-                                    <h6 class="uk-margin-remove uk-text-muted font-size-8">Precio de venta</h6>
-                                    <h5 class="uk-margin-remove font-weight-500 font-size-9">$150.200.000</h5>
-                                </div>
-                                <div class="uk-flex uk-flex-middle">
-                                    <div>
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Area (m2)</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9">44.5</h5>
-                                    </div>
-                                    <div class="padding-horizontal-40">
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Hab.</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">2</h5>
-                                    </div>
-                                    <div>
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Baños</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">1</h5>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="uk-flex uk-flex-middle" style="top: 165px; left: 460px; position: absolute;">
+                <div class="uk-visible@l">
+                    <h5 class="uk-margin-remove uk-text-bold color-red uk-text-center font-size-15" style="padding-right: 5px;">Metros cuadrados</h5>
+                    <div class="uk-flex uk-flex-center">
+                        <div class="uk-flex uk-flex-middle cursor-pointer">
+                            <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
+                            <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="cards-estates" style="position: relative;">
-                        <img src="./assets/images/MOCKUP Antofa-43.jpg" alt="">
-                        <img class="icon-size-estate-outstanding" src="./assets/icons/20.png" alt="">
-                        <div class="box-red-card">
-                            <div style="margin-left: 3px; padding-top: 3px;">
-                                <h6 class="uk-flex uk-flex-middle uk-margin-remove card-location-label font-size-6 font-weight-500">RESERVA DEL MAR</h6>
-                            </div>
-                            <div style="padding-left: 20px; padding-bottom: 10px;">
-                                <div style="margin-top: 5px;">
-                                    <h6 class="uk-margin-remove color-red uk-text-bold font-size-9 line-height-5">Apartamento en venta</h6>
-                                    <h6 class="uk-margin-remove color-red uk-text-bold font-size-9" style="padding-top: 3px;">Perdomo, Bogotá D.C.</h6>
-                                </div>
-                                <div class="padding-vertical-3">
-                                    <h6 class="uk-margin-remove uk-text-muted font-size-8">Precio de venta</h6>
-                                    <h5 class="uk-margin-remove font-weight-500 font-size-9">$204.800.000</h5>
-                                </div>
-                                <div class="uk-flex uk-flex-middle">
-                                    <div>
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Area (m2)</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9">36</h5>
-                                    </div>
-                                    <div class="padding-horizontal-40">
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Hab.</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">1</h5>
-                                    </div>
-                                    <div>
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Baños</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">1</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="uk-flex uk-flex-center">
+                        <input class="input-properties uk-text-center" type="text" placeholder="60 m²">
                     </div>
                 </div>
-                <div>
-                    <div class="cards-estates" style="position: relative;">
-                        <img src="./assets/images/MOCKUP Antofa-44.jpg" alt="">
-                        <!-- <img class="icon-size-estate-outstanding" src="./assets/icons/20.png" alt=""> -->
-                        <div class="box-red-card">
-                            <div style="margin-left: 3px; padding-top: 3px;">
-                                <h6 class="uk-flex uk-flex-middle uk-margin-remove card-location-label font-size-6 font-weight-500">BELLAVISTA 2</h6>
-                            </div>
-                            <div style="padding-left: 20px; padding-bottom: 10px;">
-                                <div style="margin-top: 5px;">
-                                    <h6 class="uk-margin-remove color-red uk-text-bold font-size-9 line-height-5">Apartamento en venta</h6>
-                                    <h6 class="uk-margin-remove color-red uk-text-bold font-size-9" style="padding-top: 3px;">Perdomo, Bogotá D.C.</h6>
-                                </div>
-                                <div class="padding-vertical-3">
-                                    <h6 class="uk-margin-remove uk-text-muted font-size-8">Precio de venta</h6>
-                                    <h5 class="uk-margin-remove font-weight-500 font-size-9">$178.000.000</h5>
-                                </div>
-                                <div class="uk-flex uk-flex-middle">
-                                    <div>
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Area (m2)</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9">60</h5>
-                                    </div>
-                                    <div class="padding-horizontal-40">
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Hab.</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">2</h5>
-                                    </div>
-                                    <div>
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Baños</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">2</h5>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="uk-visible@m" style="margin-left: 35px;">
+                    <h5 class="uk-margin-remove uk-text-bold color-red uk-text-center font-size-15" style="padding-right: 6px;">Habitaciones</h5>
+                    <div class="uk-flex uk-flex-center">
+                        <div class="uk-flex uk-flex-middle cursor-pointer">
+                            <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
+                            <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
                         </div>
                     </div>
+                    <div class="uk-flex uk-flex-center">
+                        <input class="input-properties uk-text-center" type="text" placeholder="5">
+                    </div>
                 </div>
-                <div>
-                    <div class="cards-estates" style="position: relative;">
-                        <img src="./assets/images/MOCKUP Antofa-45.jpg" alt="">
-                        <!-- <img class="icon-size-estate-outstanding" src="./assets/icons/20.png" alt=""> -->
-                        <div class="box-red-card">
-                            <div style="margin-left: 3px; padding-top: 3px;">
-                                <h6 class="uk-flex uk-flex-middle uk-margin-remove card-location-label font-size-6 font-weight-500">Laurel Bosques de La Calera</h6>
-                            </div>
-                            <div style="padding-left: 20px; padding-bottom: 10px;">
-                                <div style="margin-top: 5px;">
-                                    <h6 class="uk-margin-remove color-red uk-text-bold font-size-9 line-height-5">Apartamento en venta</h6>
-                                    <h6 class="uk-margin-remove color-red uk-text-bold font-size-9" style="padding-top: 3px;">La calera</h6>
-                                </div>
-                                <div class="padding-vertical-3">
-                                    <h6 class="uk-margin-remove uk-text-muted font-size-8">Precio de venta</h6>
-                                    <h5 class="uk-margin-remove font-weight-500 font-size-9">$150.030.000</h5>
-                                </div>
-                                <div class="uk-flex uk-flex-middle">
-                                    <div>
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Area (m2)</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9">7.81</h5>
-                                    </div>
-                                    <div class="padding-horizontal-40">
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Hab.</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">3</h5>
-                                    </div>
-                                    <div>
-                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Baños</h6>
-                                        <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">2</h5>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="uk-visible@m" style="margin-left: 40px;">
+                    <h5 class="uk-margin-remove uk-text-bold color-red uk-text-center font-size-15" style="padding-right: 10px;">Baños</h5>
+                    <div class="uk-flex uk-flex-center">
+                        <div class="uk-flex uk-flex-middle cursor-pointer">
+                            <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
+                            <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
                         </div>
+                    </div>
+                    <div class="uk-flex uk-flex-center">
+                        <input class="input-properties uk-text-center" type="text" placeholder="2">
                     </div>
                 </div>
             </div>
+            <div class="uk-visible@l" style="top: 165px; right: 160px; position: absolute;">
+                <h5 class="uk-margin-remove uk-text-bold color-red font-size-15">Precio</h5>
+                <h6 class="uk-margin-remove font-size-11 color-white line-height-15">85.000.000$</h6>
+                <div style="margin-top: 10px;">
+                    <img style="position: relative; width: 230px; height: 20px; margin-top: 15px;" src="./assets/icons/18.png" alt="">
+                    <img style="position: absolute; left: 35px; bottom: 9px; width: 13px;" src="./assets/icons/19.png" alt="">
+                    <div class="uk-flex uk-flex-middle" style="position: relative; margin-top: 5px;">
+                        <h6 class="uk-margin-remove color-white font-size-10" style="position: absolute; left: -19px;">60 millones</h6>
+                        <h6 class="uk-margin-remove color-white font-size-10 width-100" style="position: absolute; left: 200px;">500 millones</h6>
+                    </div>
+                </div>
+            </div>
+            <div style="top: 165px; right: 40px; position: absolute;">
+                <button class="button-search-properties">Buscar</button>
+                <h6 class="uk-margin-remove color-white font-size-9 uk-text-muted padding-vertical-10" style="padding-left: 9px;">Buscar por código</h6>
+            </div>
         </div>
-    </div>
-    <!-- Noticias -->
-    <div style="margin-left: 205px; margin-right: 215px; margin-top: 40px;">
-        <h6 class="uk-margin-remove uk-text-bold font-size-14">Noticias</h6>
+        <!-- imagnes destacadas y recomendadas -->
         <div>
-            <h6 class="uk-margin-remove color-red uk-text-bold font-size-18 padding-vertical-3">Mi casa ya, programa de vivienda</h6>
-            <p class="uk-margin-remove font-size-12_5 uk-text-bold uk-text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae (...)</p>
+            <div class="uk-flex uk-flex-middle uk-flex-around" style="margin-top: 20px; margin-bottom: 10px;">
+                <h6 class="uk-margin-remove uk-text-bold uk-text-muted font-size-16" style="padding-left: 200px;">Inmuebles destacados</h6>
+                <h6 class="uk-margin-remove uk-text-bold uk-text-muted font-size-16" style="padding-right: 212px;">Inmuebles Recomendados</h6>
+            </div>
+            <div class="uk-flex uk-flex-center">
+                <div class="uk-flex uk-flex-middle">
+                    <div>
+                        <div class="cards-estates" style="position: relative;">
+                            <img src="./assets/images/MOCKUP Antofa-42.jpg" alt="">
+                            <img class="icon-size-estate-outstanding" src="./assets/icons/20.png" alt="">
+                            <div class="box-red-card">
+                                <div style="margin-left: 3px; padding-top: 3px;">
+                                    <h6 class="uk-flex uk-flex-middle uk-margin-remove card-location-label font-size-6 font-weight-500">BELLAVISTA 2</h6>
+                                </div>
+                                <div style="padding-left: 20px; padding-bottom: 10px;">
+                                    <div style="margin-top: 5px;">
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-9 line-height-5">Apartamento en venta</h6>
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-9" style="padding-top: 3px;">Perdomo, Bogotá D.C.</h6>
+                                    </div>
+                                    <div class="padding-vertical-3">
+                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Precio de venta</h6>
+                                        <h5 class="uk-margin-remove font-weight-500 font-size-9">$150.200.000</h5>
+                                    </div>
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div>
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Area (m2)</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9">44.5</h5>
+                                        </div>
+                                        <div class="padding-horizontal-40">
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Hab.</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">2</h5>
+                                        </div>
+                                        <div>
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Baños</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">1</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cards-estates" style="position: relative;">
+                            <img src="./assets/images/MOCKUP Antofa-43.jpg" alt="">
+                            <img class="icon-size-estate-outstanding" src="./assets/icons/20.png" alt="">
+                            <div class="box-red-card">
+                                <div style="margin-left: 3px; padding-top: 3px;">
+                                    <h6 class="uk-flex uk-flex-middle uk-margin-remove card-location-label font-size-6 font-weight-500">RESERVA DEL MAR</h6>
+                                </div>
+                                <div style="padding-left: 20px; padding-bottom: 10px;">
+                                    <div style="margin-top: 5px;">
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-9 line-height-5">Apartamento en venta</h6>
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-9" style="padding-top: 3px;">Perdomo, Bogotá D.C.</h6>
+                                    </div>
+                                    <div class="padding-vertical-3">
+                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Precio de venta</h6>
+                                        <h5 class="uk-margin-remove font-weight-500 font-size-9">$204.800.000</h5>
+                                    </div>
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div>
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Area (m2)</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9">36</h5>
+                                        </div>
+                                        <div class="padding-horizontal-40">
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Hab.</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">1</h5>
+                                        </div>
+                                        <div>
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Baños</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">1</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cards-estates" style="position: relative;">
+                            <img src="./assets/images/MOCKUP Antofa-44.jpg" alt="">
+                            <!-- <img class="icon-size-estate-outstanding" src="./assets/icons/20.png" alt=""> -->
+                            <div class="box-red-card">
+                                <div style="margin-left: 3px; padding-top: 3px;">
+                                    <h6 class="uk-flex uk-flex-middle uk-margin-remove card-location-label font-size-6 font-weight-500">BELLAVISTA 2</h6>
+                                </div>
+                                <div style="padding-left: 20px; padding-bottom: 10px;">
+                                    <div style="margin-top: 5px;">
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-9 line-height-5">Apartamento en venta</h6>
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-9" style="padding-top: 3px;">Perdomo, Bogotá D.C.</h6>
+                                    </div>
+                                    <div class="padding-vertical-3">
+                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Precio de venta</h6>
+                                        <h5 class="uk-margin-remove font-weight-500 font-size-9">$178.000.000</h5>
+                                    </div>
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div>
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Area (m2)</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9">60</h5>
+                                        </div>
+                                        <div class="padding-horizontal-40">
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Hab.</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">2</h5>
+                                        </div>
+                                        <div>
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Baños</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">2</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cards-estates" style="position: relative;">
+                            <img src="./assets/images/MOCKUP Antofa-45.jpg" alt="">
+                            <!-- <img class="icon-size-estate-outstanding" src="./assets/icons/20.png" alt=""> -->
+                            <div class="box-red-card">
+                                <div style="margin-left: 3px; padding-top: 3px;">
+                                    <h6 class="uk-flex uk-flex-middle uk-margin-remove card-location-label font-size-6 font-weight-500">Laurel Bosques de La Calera</h6>
+                                </div>
+                                <div style="padding-left: 20px; padding-bottom: 10px;">
+                                    <div style="margin-top: 5px;">
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-9 line-height-5">Apartamento en venta</h6>
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-9" style="padding-top: 3px;">La calera</h6>
+                                    </div>
+                                    <div class="padding-vertical-3">
+                                        <h6 class="uk-margin-remove uk-text-muted font-size-8">Precio de venta</h6>
+                                        <h5 class="uk-margin-remove font-weight-500 font-size-9">$150.030.000</h5>
+                                    </div>
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div>
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Area (m2)</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9">7.81</h5>
+                                        </div>
+                                        <div class="padding-horizontal-40">
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Hab.</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">3</h5>
+                                        </div>
+                                        <div>
+                                            <h6 class="uk-margin-remove uk-text-muted font-size-8">Baños</h6>
+                                            <h5 class="uk-margin-remove font-weight-500 font-size-9 uk-text-center">2</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div style="margin-top: 20px;">
-            <h6 class="uk-margin-remove color-red uk-text-bold font-size-18 padding-vertical-3">Usa tus cesantías para comprar vivienda</h6>
-            <p class="uk-margin-remove font-size-12_5 uk-text-bold uk-text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae (...)</p>
+        <!-- Noticias -->
+        <div style="margin-left: 205px; margin-right: 215px; margin-top: 40px;">
+            <h6 class="uk-margin-remove uk-text-bold font-size-14">Noticias</h6>
+            <div>
+                <h6 class="uk-margin-remove color-red uk-text-bold font-size-18 padding-vertical-3">Mi casa ya, programa de vivienda</h6>
+                <p class="uk-margin-remove font-size-12_5 uk-text-bold uk-text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae (...)</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <h6 class="uk-margin-remove color-red uk-text-bold font-size-18 padding-vertical-3">Usa tus cesantías para comprar vivienda</h6>
+                <p class="uk-margin-remove font-size-12_5 uk-text-bold uk-text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae (...)</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <h6 class="uk-margin-remove color-red uk-text-bold font-size-18 padding-vertical-3">Feria de ofertas: Tu nuevo hogar con descuentos</h6>
+                <p class="uk-margin-remove font-size-12_5 uk-text-bold uk-text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae (...)</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <h6 class="uk-margin-remove color-red uk-text-bold font-size-18 padding-vertical-3">¿Cómo comprar vivienda de interés social?</h6>
+                <p class="uk-margin-remove font-size-12_5 uk-text-bold uk-text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae (...)</p>
+            </div>
         </div>
-        <div style="margin-top: 20px;">
-            <h6 class="uk-margin-remove color-red uk-text-bold font-size-18 padding-vertical-3">Feria de ofertas: Tu nuevo hogar con descuentos</h6>
-            <p class="uk-margin-remove font-size-12_5 uk-text-bold uk-text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae (...)</p>
+    </div>
+    <!-- vista de busqueda -->
+    <div style="display: inline;">
+        <!-- zona de busqueda -->
+        <div style="position: relative;">
+            <img class="image-search-second" src="./assets/icons/1.png" alt="">
+            <div class="uk-flex uk-flex-middle" style="top: 100px; left: 30px; position: absolute;">
+                <div class="uk-flex uk-flex-middle cursor-pointer">
+                    <h5 class="uk-margin-remove uk-text-bold color-white font-size-15 width-150">Residencial</h5>
+                    <img class="size-icon-caret-down" src="./assets/icons/15.png" alt="">
+                </div>
+                <div class="uk-flex uk-flex-middle cursor-pointer" style="margin-left: 35px;">
+                    <h5 class="uk-margin-remove uk-text-bold color-white font-size-15 width-150">Compra (Nuevo)</h5>
+                    <img class="size-icon-caret-down" src="./assets/icons/15.png" alt="">
+                </div>
+            </div>
+            <div style="top: 140px; left: 30px; position: absolute;">
+                <input class="input-city" type="text" placeholder="Bogotá">
+            </div>
+            <div class="uk-flex uk-flex-middle" style="top: 100px; left: 460px; position: absolute;">
+                <div class="uk-visible@l">
+                    <h5 class="uk-margin-remove uk-text-bold color-red uk-text-center font-size-15" style="padding-right: 5px;">Metros cuadrados</h5>
+                    <div class="uk-flex uk-flex-center">
+                        <div class="uk-flex uk-flex-middle cursor-pointer">
+                            <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
+                            <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-center">
+                        <input class="input-properties uk-text-center" type="text" placeholder="30 m²">
+                    </div>
+                </div>
+                <div class="uk-visible@m" style="margin-left: 35px;">
+                    <h5 class="uk-margin-remove uk-text-bold color-red uk-text-center font-size-15" style="padding-right: 6px;">Habitaciones</h5>
+                    <div class="uk-flex uk-flex-center">
+                        <div class="uk-flex uk-flex-middle cursor-pointer">
+                            <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
+                            <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-center">
+                        <input class="input-properties uk-text-center" type="text" placeholder="1">
+                    </div>
+                </div>
+                <div class="uk-visible@m" style="margin-left: 40px;">
+                    <h5 class="uk-margin-remove uk-text-bold color-red uk-text-center font-size-15" style="padding-right: 10px;">Baños</h5>
+                    <div class="uk-flex uk-flex-center">
+                        <div class="uk-flex uk-flex-middle cursor-pointer">
+                            <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
+                            <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-center">
+                        <input class="input-properties uk-text-center" type="text" placeholder="1">
+                    </div>
+                </div>
+            </div>
+            <div class="uk-visible@l" style="top: 100px; right: 160px; position: absolute;">
+                <h5 class="uk-margin-remove uk-text-bold color-red font-size-15">Precio</h5>
+                <div class="uk-flex uk-flex-middle cursor-pointer">
+                    <h6 class="uk-margin-remove font-size-11 color-white line-height-5">Mayor o igual que</h6>
+                    <i class="fas fa-caret-down padding-horizontal-5 font-size-9 color-white"></i>
+                    <h6 class="uk-margin-remove font-size-11 color-white line-height-5 padding-horizontal-10">85.000.000$</h6>
+                </div>
+                <div style="margin-top: 8px;">
+                    <img style="position: relative; width: 230px; height: 20px; margin-top: 15px;" src="./assets/icons/18.png" alt="">
+                    <img style="position: absolute; left: 35px; bottom: 9px; width: 13px;" src="./assets/icons/19.png" alt="">
+                    <div class="uk-flex uk-flex-middle" style="position: relative; margin-top: 5px;">
+                        <h6 class="uk-margin-remove color-white font-size-10" style="position: absolute; left: -19px;">60 millones</h6>
+                        <h6 class="uk-margin-remove color-white font-size-10 width-100" style="position: absolute; left: 200px;">500 millones</h6>
+                    </div>
+                </div>
+            </div>
+            <div style="top: 100px; right: 40px; position: absolute;">
+                <button class="button-search-properties">Buscar</button>
+                <h6 class="uk-margin-remove color-white font-size-9 uk-text-muted padding-vertical-10" style="padding-left: 9px;">Buscar por código</h6>
+            </div>
         </div>
-        <div style="margin-top: 20px;">
-            <h6 class="uk-margin-remove color-red uk-text-bold font-size-18 padding-vertical-3">¿Cómo comprar vivienda de interés social?</h6>
-            <p class="uk-margin-remove font-size-12_5 uk-text-bold uk-text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae (...)</p>
+        <div class="uk-flex">
+            <div style="margin-left: 30px; margin-top: 5px;">
+                <h6 class="uk-margin-remove uk-text-muted uk-text-bold font-size-10">Inicio / Apartamentos / Compra / Bogotá</h6>
+                <div class="uk-inline" style="margin-top: 10px;">
+                    <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: search" style="width: 15px;"></span>
+                    <input class="uk-input input-apply-filters" type="text" placeholder="Filtrar por palabras">
+                </div>
+                <div style="margin-top: 30px;">
+                    <div class="uk-flex uk-flex-middle uk-flex-between apply-filters">
+                        <h6 class="uk-margin-remove font-size-10 color-grey-fonts-footer uk-text-bold uk-text-center width-150">Antiguedad</h6>
+                        <i class="fas fa-plus font-size-12 color-red"></i>
+                    </div>
+                    <div class="uk-flex uk-flex-middle uk-flex-between apply-filters">
+                        <h6 class="uk-margin-remove font-size-10 color-grey-fonts-footer uk-text-bold uk-text-center width-150">Estrato</h6>
+                        <i class="fas fa-plus font-size-12 color-red"></i>
+                    </div>
+                    <div class="uk-flex uk-flex-middle uk-flex-between apply-filters">
+                        <h6 class="uk-margin-remove font-size-10 color-grey-fonts-footer uk-text-bold uk-text-center width-150">Me gustaría que tenga</h6>
+                        <i class="fas fa-plus font-size-12 color-red"></i>
+                    </div>
+                    <div class="uk-flex uk-flex-middle uk-flex-between apply-filters">
+                        <h6 class="uk-margin-remove font-size-10 color-grey-fonts-footer uk-text-bold uk-text-center width-150">Fecha de publicación</h6>
+                        <i class="fas fa-plus font-size-12 color-red"></i>
+                    </div>
+                    <div>
+                        <button class="button-apply-filters">Aplicar filtros</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h6 class="uk-margin-remove">470 apartamentos para compra en Bogotá</h6>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin card-specific-property" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container" style="height: 140px; width: 230px;">
+                            <img src="./assets/images/MOCKUP Antofa-42.jpg" alt="" uk-cover>
+                            <canvas width="10" height="20"></canvas>
+                        </div>
+                        <div>
+                            <div class="uk-card-body " style="border: 1px solid red; height: 60px; width: 500px;">
+                                <h3 class="uk-card-title">Media Left</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Footer -->
@@ -437,6 +567,7 @@
                 <img class="icons-social-media" src="./assets/icons/27.png" alt="">
                 <img class="icons-social-media" src="./assets/icons/28.png" alt="">
             </div>
+            <!-- modal contactanos -->
             <div style="margin-left: 120px;">
                 <img class="icon-contact-us" src="./assets/icons/29.png" alt="" uk-toggle="target: #modal-contact-us">
                 <div id="modal-contact-us" uk-modal>
