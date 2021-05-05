@@ -449,6 +449,42 @@
 }
 
 .card-specific-property {
-    height: 140px;
-    width: 812px;
+    border: 1px solid red;
+    border-left: none;
+    height: 123px;
+    width: 500px;
+    padding: 0px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.star-favorites {
+    width: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.star-favorites:focus {
+    outline: 0;
+}
+
+.padding-horizontal-30 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.button-grey-sector {
+    background-color: #F2F2F2;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.icon-contact-size {
+    width: 90px;
+    margin-right: 10px;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    cursor: pointer;
 }

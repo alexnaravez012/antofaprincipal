@@ -410,7 +410,7 @@
         </div>
         <div class="uk-flex">
             <div style="margin-left: 30px; margin-top: 5px;">
-                <h6 class="uk-margin-remove uk-text-muted uk-text-bold font-size-10">Inicio / Apartamentos / Compra / Bogotá</h6>
+                <h6 class="uk-margin-remove uk-text-muted uk-text-bold font-size-9">Inicio / Apartamentos / Compra / Bogotá</h6>
                 <div class="uk-inline" style="margin-top: 10px;">
                     <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: search" style="width: 15px;"></span>
                     <input class="uk-input input-apply-filters" type="text" placeholder="Filtrar por palabras">
@@ -437,20 +437,182 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div style="margin-left: 160px; margin-top: 5px;">
                 <div>
-                    <h6 class="uk-margin-remove">470 apartamentos para compra en Bogotá</h6>
+                    <h6 class="uk-margin-remove font-size-9 font-weight-500">470 apartamentos para compra en Bogotá</h6>
                 </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin card-specific-property" uk-grid>
-                        <div class="uk-card-media-left uk-cover-container" style="height: 140px; width: 230px;">
+                <div style="margin-top: 5px;">
+                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container" style="height: 130px; width: 230px;">
                             <img src="./assets/images/MOCKUP Antofa-42.jpg" alt="" uk-cover>
                             <canvas width="10" height="20"></canvas>
                         </div>
                         <div>
-                            <div class="uk-card-body " style="border: 1px solid red; height: 60px; width: 500px;">
-                                <h3 class="uk-card-title">Media Left</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <div class="uk-card-body card-specific-property">
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-15">Perdomo, Bogotá D.C.</h6>
+                                        <h6 class="uk-margin-remove uk-text-muted font-size-9 padding-horizontal-30">Apartamento nuevo en venta</h6>
+                                    </div>
+                                    <div class="star-favorites" uk-toggle="target: .favorites-1">
+                                        <img class="favorites-1 star-favorites" src="./assets/icons/Favoritos-inactivo.png" alt="">
+                                        <img class="favorites-1 star-favorites" src="./assets/icons/Favoritos-activo.png" alt="" hidden>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-flex-middle padding-vertical-15">
+                                    <div>
+                                        <h6 class="uk-margin-remove color-red font-size-10">Precio de venta</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 font-size-13">$150.200.000</h6>
+                                    </div>
+                                    <div class="padding-horizontal-40">
+                                        <h6 class="uk-margin-remove color-red font-size-10">Area (m2)</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 uk-text-center font-size-13">44.5</h6>
+                                    </div>
+                                    <div>
+                                        <h6 class="uk-margin-remove color-red font-size-10">Habitaciones</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 uk-text-center font-size-13">2</h6>
+                                    </div>
+                                    <div class="padding-horizontal-40">
+                                        <h6 class="uk-margin-remove color-red font-size-10">Baños</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 uk-text-center font-size-13">1</h6>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div>
+                                        <h6 class="uk-margin-remove font-size-8 color-grey uk-text-bold button-grey-sector uk-flex uk-flex-middle">CONJUNTO RESIDENCIAL BELLAVISTA 2</h6>
+                                    </div>
+                                    <div>
+                                        <img class="icon-contact-size" src="./assets/icons/Boton-de-contacto.png" alt="" uk-toggle="target: #modal-contact-us">
+                                        <div id="modal-contact-us" uk-modal>
+                                            <div class="uk-modal-dialog uk-modal-body modal-contact-us">
+                                                <button class="uk-modal-close-default" type="button" uk-close></button>
+                                                <div class="uk-flex uk-flex-middle">
+                                                    <img src="./assets/images/MOCKUP Antofa-42.jpg" alt="">
+                                                    <div>
+                                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-15">Perdomo, Bogotá D.C.</h6>
+                                                        <h6 class="uk-margin-remove font-size-8 color-grey uk-text-bold button-grey-sector uk-flex uk-flex-middle">CONJUNTO RESIDENCIAL BELLAVISTA 2</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="padding-vertical-3">
+                                                    <h6 class="uk-margin-remove uk-text-bold font-size-10 color-red">*Nombre</h6>
+                                                    <input class="input-modal-contact-us" type="text" placeholder="Nombre y Apellido">
+                                                </div>
+                                                <div class="padding-vertical-5">
+                                                    <h6 class="uk-margin-remove uk-text-bold font-size-10 color-red">*Telefono</h6>
+                                                    <input class="input-modal-contact-us" type="text" placeholder="Número de teléfono">
+                                                </div>
+                                                <div class="padding-vertical-5">
+                                                    <h6 class="uk-margin-remove uk-text-bold font-size-10 color-red">E-mail</h6>
+                                                    <input class="input-modal-contact-us" type="text" placeholder="Correo electrónico">
+                                                </div>
+                                                <div style="margin-top: 20px;">
+                                                    <h6 class="uk-margin-remove uk-text-bold font-size-10 color-red">Escriba aquí información adicional si desea</h6>
+                                                    <input class="input-modal-contact-us-information" type="text" placeholder="Estoy interesado en ampliar la información de este predio.....">
+                                                </div>
+                                                <h6 class="uk-margin-remove font-size-8 uk-text-center color-grey padding-vertical-3">Enviar su contacto acepta los <span class="color-red cursor-pointer">términos y condiciones</span> y el <span class="color-red cursor-pointer">aviso de privacidad</span></h6>
+                                                <div class="uk-flex uk-flex-center">
+                                                    <button class="button-send-modal-contact-us uk-text-bold">ENVIAR</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 5px;">
+                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container" style="height: 130px; width: 230px;">
+                            <img src="./assets/images/MOCKUP Antofa-43.jpg" alt="" uk-cover>
+                            <canvas width="10" height="20"></canvas>
+                        </div>
+                        <div>
+                            <div class="uk-card-body card-specific-property">
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-15">Perdomo, Bogotá D.C.</h6>
+                                        <h6 class="uk-margin-remove uk-text-muted font-size-9 padding-horizontal-30">Apartamento nuevo en venta</h6>
+                                    </div>
+                                    <div class="star-favorites" uk-toggle="target: .favorites-2">
+                                        <img class="favorites-2 star-favorites" src="./assets/icons/Favoritos-inactivo.png" alt="">
+                                        <img class="favorites-2 star-favorites" src="./assets/icons/Favoritos-activo.png" alt="" hidden>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-flex-middle padding-vertical-15">
+                                    <div>
+                                        <h6 class="uk-margin-remove color-red font-size-10">Precio de venta</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 font-size-13">$204.800.000</h6>
+                                    </div>
+                                    <div class="padding-horizontal-40">
+                                        <h6 class="uk-margin-remove color-red font-size-10">Area (m2)</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 uk-text-center font-size-13">36</h6>
+                                    </div>
+                                    <div>
+                                        <h6 class="uk-margin-remove color-red font-size-10">Habitaciones</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 uk-text-center font-size-13">1</h6>
+                                    </div>
+                                    <div class="padding-horizontal-40">
+                                        <h6 class="uk-margin-remove color-red font-size-10">Baños</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 uk-text-center font-size-13">1</h6>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div>
+                                        <h6 class="uk-margin-remove font-size-8 color-grey uk-text-bold button-grey-sector uk-flex uk-flex-middle">CONJUNTO RESIDENCIAL RESERVA DEL MAR</h6>
+                                    </div>
+                                    <div>
+                                        <img class="icon-contact-size" src="./assets/icons/Boton-de-contacto.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 5px;">
+                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container" style="height: 130px; width: 230px;">
+                            <img src="./assets/images/MOCKUP Antofa-44.jpg" alt="" uk-cover>
+                            <canvas width="10" height="20"></canvas>
+                        </div>
+                        <div>
+                            <div class="uk-card-body card-specific-property">
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <h6 class="uk-margin-remove color-red uk-text-bold font-size-15">Perdomo, Bogotá D.C.</h6>
+                                        <h6 class="uk-margin-remove uk-text-muted font-size-9 padding-horizontal-30">Apartamento nuevo en venta</h6>
+                                    </div>
+                                    <div class="star-favorites" uk-toggle="target: .favorites-3">
+                                        <img class="favorites-3 star-favorites" src="./assets/icons/Favoritos-inactivo.png" alt="">
+                                        <img class="favorites-3 star-favorites" src="./assets/icons/Favoritos-activo.png" alt="" hidden>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-flex-middle padding-vertical-15">
+                                    <div>
+                                        <h6 class="uk-margin-remove color-red font-size-10">Precio de venta</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 font-size-13">$178.000.000</h6>
+                                    </div>
+                                    <div class="padding-horizontal-40">
+                                        <h6 class="uk-margin-remove color-red font-size-10">Area (m2)</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 uk-text-center font-size-13">60</h6>
+                                    </div>
+                                    <div>
+                                        <h6 class="uk-margin-remove color-red font-size-10">Habitaciones</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 uk-text-center font-size-13">2</h6>
+                                    </div>
+                                    <div class="padding-horizontal-40">
+                                        <h6 class="uk-margin-remove color-red font-size-10">Baños</h6>
+                                        <h6 class="uk-margin-remove  font-weight-500 uk-text-center font-size-13">2</h6>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div>
+                                        <h6 class="uk-margin-remove font-size-8 color-grey uk-text-bold button-grey-sector uk-flex uk-flex-middle">BELLAVISTA 2</h6>
+                                    </div>
+                                    <div>
+                                        <img class="icon-contact-size" src="./assets/icons/Boton-de-contacto.png" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
