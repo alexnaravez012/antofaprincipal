@@ -356,7 +356,7 @@
 }
 
 .input-modal-contact-us {
-    border: 1px solid #f21636;
+    border: 1px solid #f216378f;
     width: 100%;
     height: 20px;
 }
@@ -370,7 +370,7 @@
 }
 
 .input-modal-contact-us-information {
-    border: 1px solid #f21636;
+    border: 1px solid #f2163783;
     width: 100%;
     height: 50px;
 }
@@ -479,6 +479,7 @@
     padding-right: 15px;
     border-radius: 5px;
     height: 20px;
+    width: 180px;
 }
 
 .icon-contact-size {
@@ -487,4 +488,30 @@
     border: 1px solid rgb(138, 138, 138);
     border-radius: 5px;
     cursor: pointer;
+}
+
+.modal-contact {
+    padding: 0px;
+    width: 380px;
+    height: 460px;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+.size-image-contact {
+    width: 140px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.button-grey-sector-contact {
+    background-color: #F2F2F2;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    height: 20px;
+    width: 170px;
 }
