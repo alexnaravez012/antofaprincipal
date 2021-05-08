@@ -1,536 +1,735 @@
-.color-red {
-    color: #f21636;
-}
-
-.color-grey {
-    color: #6d6d6d;
-}
-
-.color-grey-fonts-footer {
-    color: #777676;
-}
-
-.color-white {
-    color: #ffffff;
-}
-
-.cursor-pointer {
-    cursor: pointer;
-}
-
-.font-size-6 {
-    font-size: 6px;
-}
-
-.font-size-7 {
-    font-size: 7px;
-}
-
-.font-size-8 {
-    font-size: 8px;
-}
-
-.font-size-9 {
-    font-size: 9px;
-}
-
-.font-size-10 {
-    font-size: 10px;
-}
-
-.font-size-11 {
-    font-size: 11px;
-}
-
-.font-size-12 {
-    font-size: 12px;
-}
-
-.font-size-13 {
-    font-size: 13px;
-}
-
-.font-size-12_5 {
-    font-size: 12.5px;
-}
-
-.font-size-14 {
-    font-size: 14px;
-}
-
-.font-size-15 {
-    font-size: 15px;
-}
-
-.font-size-16 {
-    font-size: 16px;
-}
-
-.font-size-17 {
-    font-size: 17px;
-}
-
-.font-size-18 {
-    font-size: 18px;
-}
-
-.font-size-19 {
-    font-size: 19px;
-}
-
-.font-size-20 {
-    font-size: 20px;
-}
-
-.font-size-21 {
-    font-size: 21px;
-}
-
-.width-100 {
-    width: 100px;
-}
-
-.width-150 {
-    width: 150px;
-}
-
-.width-200 {
-    width: 200px;
-}
-
-.width-190 {
-    width: 190px;
-}
-
-.width-250 {
-    width: 250px;
-}
-
-.width-300 {
-    width: 300px;
-}
-
-.font-weight-500 {
-    font-weight: 500;
-}
-
-.padding-vertical-3 {
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
-.padding-vertical-5 {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.padding-vertical-10 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.padding-vertical-15 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.padding-horizontal-5 {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.padding-horizontal-40 {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.line-height-5 {
-    line-height: 5%;
-}
-
-.line-height-15 {
-    line-height: 15% !important;
-    padding-top: 5px;
-}
-
-.navbar {
-    height: 70px !important;
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    z-index: 300 !important;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.10);
-}
-
-.size-logo-antofa {
-    width: 100px;
-    margin-left: 30px;
-}
-
-.size-icon-caret-down {
-    width: 10px;
-    margin-top: 4px;
-    margin-left: 10px;
-}
-
-.size-icon-user {
-    width: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.image-search {
-    margin-top: 70px;
-    width: 100%;
-    height: 250px;
-}
-
-.image-search-second {
-    margin-top: 70px;
-    width: 100%;
-    height: 150px;
-}
-
-.width-120 {
-    width: 120px;
-}
-
-.input-city {
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    border-bottom: 1px solid white;
-    width: 350px;
-}
-
-.input-city::placeholder {
-    font-weight: 600;
-    font-size: 15px;
-    color: rgba(223, 223, 223, 0.63);
-}
-
-.input-properties {
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    border-bottom: 1px solid white;
-    width: 120px;
-    margin-top: 15px;
-}
-
-.input-properties::placeholder {
-    font-weight: 600;
-    font-size: 13px;
-    color: rgba(223, 223, 223, 0.63);
-}
-
-.button-search-properties {
-    background-color: #f21636;
-    border: none;
-    color: white;
-    font-weight: 700;
-    border-radius: 5px;
-    height: 30px;
-    width: 90px;
-    cursor: pointer;
-}
-
-.button-search-properties::placeholder {
-    outline: 0;
-}
-
-.drop-user-registration {
-    width: 200px !important;
-    left: -20px !important;
-    padding: 0px !important;
-    height: 320px !important;
-}
-
-.button-registration-user {
-    font-size: 13px;
-    cursor: pointer;
-}
-
-.button-registration-user:focus {
-    outline: 0;
-}
-
-.input-dates-registration-user {
-    height: 30px;
-    border: 1px solid rgba(195, 195, 195, 0.596);
-    border-radius: 5px;
-    width: 100%;
-}
-
-.button-dates-users-registration {
-    width: 100%;
-    background-color: #f21636;
-    border: none;
-    color: white;
-    font-size: 12px;
-    font-weight: 700;
-    height: 25px;
-    cursor: pointer;
-}
-
-.button-dates-users-registration:focus {
-    outline: 0;
-}
-
-.cards-estates {
-    padding: 0px !important;
-    width: 205px;
-    margin-right: 30px;
-}
-
-.card-location-label {
-    background-color: #F2F2F2;
-    width: 90px;
-    height: 15px;
-    border-radius: 8px;
-    padding-left: 8px;
-}
-
-.box-red-card {
-    border: 1px solid #f2163773;
-    border-top: none;
-}
-
-.icon-size-estate-outstanding {
-    width: 120px;
-    position: absolute;
-    left: 8px;
-    top: 5px;
-}
-
-.footer {
-    background-color: #2F2C2E;
-    margin-top: 60px;
-    padding-left: 50px;
-    padding-top: 25px;
-    padding-bottom: 40px;
-}
-
-.second-footer {
-    background-color: #E5E5E5;
-    padding-left: 318px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
-.third-footer {
-    background-color: white;
-    padding-top: 15px;
-    padding-bottom: 35px;
-}
-
-.logo-antofa-footer {
-    width: 190px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.line-height-10 {
-    line-height: 23px;
-}
-
-.line-height-5 {
-    line-height: 5px;
-}
-
-.padding-horizontal-10 {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.icons-social-media {
-    width: 38px;
-    margin-left: 15px;
-    cursor: pointer;
-}
-
-.icon-contact-us {
-    width: 125px;
-    cursor: pointer;
-}
-
-.icon-contact-us:focus {
-    outline: 0;
-}
-
-.input-modal-contact-us {
-    border: 1px solid #f216378f;
-    width: 100%;
-    height: 20px;
-}
-
-.input-modal-contact-us::placeholder {
-    color: rgba(182, 182, 182, 0.609);
-    font-size: 13px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: center;
-}
-
-.input-modal-contact-us-information {
-    border: 1px solid #f2163783;
-    width: 100%;
-    height: 50px;
-}
-
-.input-modal-contact-us-information::placeholder {
-    color: rgb(141, 141, 141);
-    font-size: 13px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: center;
-}
-
-.input-modal-contact-us {
-    outline: 0;
-}
-
-.button-send-modal-contact-us {
-    background-color: #f21636;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    height: 30px;
-    width: 100px;
-    font-size: 11px;
-    margin-top: 30px;
-    cursor: pointer;
-}
-
-.button-send-modal-contact-us:focus {
-    outline: 0;
-}
-
-.modal-contact-us {
-    padding: 0px;
-    width: 380px;
-    height: 380px;
-    margin-top: 50px;
-    border-radius: 8px;
-    padding-left: 20px;
-    padding-right: 25px;
-}
-
-.apply-filters {
-    border: 1px solid rgba(189, 189, 189, 0.712);
-    background-color: white;
-    border-radius: 5px;
-    width: 140px;
-    height: 20PX;
-    margin-bottom: 10px;
-    padding-right: 5px;
-    padding-left: 10px;
-    cursor: pointer;
-}
-
-.input-apply-filters {
-    border: none;
-    border-bottom: 1px solid grey;
-    width: 155px;
-    height: 25px;
-}
-
-.input-apply-filters::placeholder {
-    font-size: 11px;
-}
-
-.button-apply-filters {
-    background-color: #f21636;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    height: 20px;
-    width: 155px;
-    font-size: 10px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-.card-specific-property {
-    border: 1px solid red;
-    border-left: none;
-    height: 123px;
-    width: 500px;
-    padding: 0px;
-    padding-left: 25px;
-    padding-top: 5px;
-}
-
-.star-favorites {
-    width: 18px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.star-favorites:focus {
-    outline: 0;
-}
-
-.padding-horizontal-30 {
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-.button-grey-sector {
-    background-color: #F2F2F2;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 5px;
-    height: 20px;
-    width: 180px;
-}
-
-.icon-contact-size {
-    width: 90px;
-    margin-right: 10px;
-    border: 1px solid rgb(138, 138, 138);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.modal-contact {
-    padding: 0px;
-    width: 380px;
-    height: 460px;
-    margin-top: 50px;
-    border-radius: 8px;
-    padding-left: 20px;
-    padding-right: 25px;
-    padding-top: 20px;
-}
-
-.size-image-contact {
-    width: 140px;
-    margin-bottom: 15px;
-    margin-right: 15px;
-}
-
-.button-grey-sector-contact {
-    background-color: #F2F2F2;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
-    height: 20px;
-    width: 170px;
-}
-
-.icons-pagination-size {
-    width: 30px;
-    margin-left: 30px;
-    cursor: pointer;
-}
-
-.numbers-pagination {
-    cursor: pointer;
-}
-
-.numbers-pagination:hover {
-    color: #f21636;
-}
-
-.image-specific-views {
-    width: 280px;
-}
+    .color-red {
+        color: #f21636;
+    }
+    
+    .color-grey {
+        color: #6d6d6d;
+    }
+    
+    .color-grey-fonts-footer {
+        color: #777676;
+    }
+    
+    .color-white {
+        color: #ffffff;
+    }
+    
+    .cursor-pointer {
+        cursor: pointer;
+    }
+    
+    .font-size-6 {
+        font-size: 6px;
+    }
+    
+    .font-size-6-5 {
+        font-size: 6.5px;
+    }
+    
+    .font-size-7 {
+        font-size: 7px;
+    }
+    
+    .font-size-8 {
+        font-size: 8px;
+    }
+    
+    .font-size-9 {
+        font-size: 9px;
+    }
+    
+    .font-size-10 {
+        font-size: 10px;
+    }
+    
+    .font-size-11 {
+        font-size: 11px;
+    }
+    
+    .font-size-12 {
+        font-size: 12px;
+    }
+    
+    .font-size-13 {
+        font-size: 13px;
+    }
+    
+    .font-size-12_5 {
+        font-size: 12.5px;
+    }
+    
+    .font-size-14 {
+        font-size: 14px;
+    }
+    
+    .font-size-15 {
+        font-size: 15px;
+    }
+    
+    .font-size-16 {
+        font-size: 16px;
+    }
+    
+    .font-size-17 {
+        font-size: 17px;
+    }
+    
+    .font-size-18 {
+        font-size: 18px;
+    }
+    
+    .font-size-19 {
+        font-size: 19px;
+    }
+    
+    .font-size-20 {
+        font-size: 20px;
+    }
+    
+    .font-size-21 {
+        font-size: 21px;
+    }
+    
+    .width-100 {
+        width: 100px;
+    }
+    
+    .width-150 {
+        width: 150px;
+    }
+    
+    .width-200 {
+        width: 200px;
+    }
+    
+    .width-190 {
+        width: 190px;
+    }
+    
+    .width-250 {
+        width: 250px;
+    }
+    
+    .width-300 {
+        width: 300px;
+    }
+    
+    .font-weight-500 {
+        font-weight: 500;
+    }
+    
+    .padding-vertical-3 {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    
+    .padding-vertical-5 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .padding-vertical-10 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .padding-vertical-15 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .padding-horizontal-5 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .padding-horizontal-40 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .line-height-5 {
+        line-height: 5%;
+    }
+    
+    .line-height-15 {
+        line-height: 15% !important;
+        padding-top: 5px;
+    }
+    
+    .navbar {
+        height: 70px !important;
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        z-index: 300 !important;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    }
+    
+    .size-logo-antofa {
+        width: 100px;
+        margin-left: 30px;
+    }
+    
+    .size-icon-caret-down {
+        width: 10px;
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+    
+    .size-icon-user {
+        width: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .image-search {
+        margin-top: 70px;
+        width: 100%;
+        height: 250px;
+    }
+    
+    .image-search-second {
+        margin-top: 70px;
+        width: 100%;
+        height: 150px;
+    }
+    
+    .width-120 {
+        width: 120px;
+    }
+    
+    .input-city {
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        border-bottom: 1px solid white;
+        width: 365px;
+    }
+    
+    .input-city::placeholder {
+        font-weight: 600;
+        font-size: 15px;
+        color: rgba(223, 223, 223, 0.63);
+    }
+    
+    .input-properties {
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        border-bottom: 1px solid white;
+        width: 120px;
+        margin-top: 15px;
+    }
+    
+    .input-properties::placeholder {
+        font-weight: 600;
+        font-size: 13px;
+        color: rgba(223, 223, 223, 0.63);
+    }
+    
+    .button-search-properties {
+        background-color: #f21636;
+        border: none;
+        color: white;
+        font-weight: 700;
+        border-radius: 5px;
+        height: 30px;
+        width: 90px;
+        cursor: pointer;
+    }
+    
+    .button-search-properties::placeholder {
+        outline: 0;
+    }
+    
+    .drop-user-registration {
+        width: 200px !important;
+        left: -20px !important;
+        padding: 0px !important;
+        height: 320px !important;
+    }
+    
+    .button-registration-user {
+        font-size: 13px;
+        cursor: pointer;
+    }
+    
+    .button-registration-user:focus {
+        outline: 0;
+    }
+    
+    .input-dates-registration-user {
+        height: 30px;
+        border: 1px solid rgba(195, 195, 195, 0.596);
+        border-radius: 5px;
+        width: 100%;
+    }
+    
+    .button-dates-users-registration {
+        width: 100%;
+        background-color: #f21636;
+        border: none;
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        height: 25px;
+        cursor: pointer;
+    }
+    
+    .button-dates-users-registration:focus {
+        outline: 0;
+    }
+    
+    .cards-estates {
+        padding: 0px !important;
+        width: 205px;
+        margin-right: 30px;
+    }
+    
+    .card-location-label {
+        background-color: #F2F2F2;
+        width: 90px;
+        height: 15px;
+        border-radius: 8px;
+        padding-left: 8px;
+    }
+    
+    .box-red-card {
+        border: 1px solid #f2163773;
+        border-top: none;
+    }
+    
+    .icon-size-estate-outstanding {
+        width: 120px;
+        position: absolute;
+        left: 8px;
+        top: 5px;
+    }
+    
+    .footer {
+        background-color: #2F2C2E;
+        margin-top: 60px;
+        padding-left: 50px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    
+    .second-footer {
+        background-color: #E5E5E5;
+        padding-left: 318px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .third-footer {
+        background-color: white;
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+    
+    .logo-antofa-footer {
+        width: 190px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .line-height-10 {
+        line-height: 23px;
+    }
+    
+    .line-height-5 {
+        line-height: 5px;
+    }
+    
+    .padding-horizontal-10 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .icons-social-media {
+        width: 38px;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+    
+    .icon-contact-us {
+        width: 125px;
+        cursor: pointer;
+    }
+    
+    .icon-contact-us:focus {
+        outline: 0;
+    }
+    
+    .input-modal-contact-us {
+        border: 1px solid #f216378f;
+        width: 100%;
+        height: 20px;
+    }
+    
+    .input-modal-contact-us::placeholder {
+        color: rgba(182, 182, 182, 0.609);
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .input-modal-contact-us-information {
+        border: 1px solid #f2163783;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .input-modal-contact-us-information::placeholder {
+        color: rgb(141, 141, 141);
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .input-modal-contact-us {
+        outline: 0;
+    }
+    
+    .button-send-modal-contact-us {
+        background-color: #f21636;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        height: 30px;
+        width: 100px;
+        font-size: 11px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    
+    .button-send-modal-contact-us:focus {
+        outline: 0;
+    }
+    
+    .modal-contact-us {
+        padding: 0px;
+        width: 380px;
+        height: 380px;
+        margin-top: 50px;
+        border-radius: 8px;
+        padding-left: 20px;
+        padding-right: 25px;
+    }
+    
+    .apply-filters {
+        border: 1px solid rgba(189, 189, 189, 0.712);
+        background-color: white;
+        border-radius: 5px;
+        width: 140px;
+        height: 20PX;
+        margin-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+    
+    .input-apply-filters {
+        border: none;
+        border-bottom: 1px solid grey;
+        width: 155px;
+        height: 25px;
+    }
+    
+    .input-apply-filters::placeholder {
+        font-size: 11px;
+    }
+    
+    .button-apply-filters {
+        background-color: #f21636;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        height: 20px;
+        width: 155px;
+        font-size: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+    .card-specific-property {
+        border: 1px solid rgba(255, 0, 0, 0.466);
+        border-left: none;
+        height: 123px;
+        width: 500px;
+        padding: 0px;
+        padding-left: 25px;
+        padding-top: 5px;
+    }
+    
+    .star-favorites {
+        width: 18px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    
+    .star-favorites:focus {
+        outline: 0;
+    }
+    
+    .padding-horizontal-30 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .button-grey-sector {
+        background-color: #F2F2F2;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        height: 20px;
+    }
+    
+    .icon-contact-size {
+        width: 90px;
+        margin-right: 10px;
+        border: 1px solid rgb(138, 138, 138);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .modal-contact {
+        padding: 0px;
+        width: 380px;
+        height: 460px;
+        margin-top: 50px;
+        border-radius: 8px;
+        padding-left: 20px;
+        padding-right: 25px;
+        padding-top: 20px;
+    }
+    
+    .size-image-contact {
+        width: 140px;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+    
+    .button-grey-sector-contact {
+        background-color: #F2F2F2;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        height: 20px;
+        width: 170px;
+    }
+    
+    .icons-pagination-size {
+        width: 30px;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    
+    .numbers-pagination {
+        cursor: pointer;
+    }
+    
+    .numbers-pagination:hover {
+        color: #f21636;
+    }
+    
+    .image-specific-views {
+        width: 302px;
+        margin-top: 10px;
+    }
+    
+    .box-apartment-characteristics {
+        border: 1px solid rgba(128, 128, 128, 0.493);
+        padding: 10px;
+        width: 280px;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+    
+    .width-312 {
+        width: 312px;
+    }
+    
+    .line-height-4 {
+        line-height: 12px;
+    }
+    
+    .icon-apartment-characteristics {
+        width: 13px;
+        padding-bottom: 4px;
+        margin-right: 15px;
+    }
+    
+    .caret-down-apartment-characteristics {
+        width: 10px;
+    }
+    
+    .hr-tab {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.561);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .focus-none {
+        background-color: white;
+    }
+    
+    .focus-none:focus {
+        outline: 0;
+    }
+    
+    .checkbox-apartment-characteristics {
+        margin-right: 10px;
+    }
+    
+    .width-70 {
+        width: 70px;
+    }
+    
+    .icons-slideshow-size {
+        width: 17px;
+        cursor: pointer;
+    }
+    
+    .padding-horizontal-20 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .hr-tab-vertical {
+        border-left: 1px solid grey;
+        height: 30px;
+        margin-left: 15px;
+    }
+    
+    .size-icons-bed {
+        width: 30px;
+        margin-right: 10px;
+    }
+    
+    .size-icons-bath {
+        width: 18px;
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+    
+    .size-icons-parking {
+        width: 38px;
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+    
+    .box-apartment-description {
+        border: 1px solid rgba(128, 128, 128, 0.493);
+        padding: 10px;
+        width: 290px;
+        margin-top: 10px;
+    }
+    
+    .box-interested {
+        width: 145px;
+        border: 1px solid rgba(128, 128, 128, 0.493);
+        margin-top: 8px;
+        border-radius: 8px;
+        padding: 15px;
+        padding-top: 0px;
+    }
+    
+    .input-interested {
+        border: 1px solid #f216378f;
+        width: 140px;
+        height: 20px;
+    }
+    
+    .input-interested::placeholder {
+        color: rgba(182, 182, 182, 0.609);
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .input-interested-information {
+        border: 1px solid #f2163783;
+        width: 140px;
+        height: 45px;
+        margin-top: 3px;
+        font-size: 10px;
+        font-style: italic;
+    }
+    
+    .button-send-interested {
+        background-color: #f21636;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        height: 25px;
+        width: 100px;
+        font-size: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    .button-send-interested:focus {
+        outline: 0;
+    }
+    
+    .icon-whatsapp {
+        width: 30px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+    
+    .box-seller-question {
+        border: 1px solid rgba(128, 128, 128, 0.493);
+        width: 452px;
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 8px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 35px;
+    }
+    
+    .input-box-seller-question {
+        border-radius: 8px;
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.493);
+        padding-left: 15px;
+        height: 75px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    .box-record-tools {
+        border: 1px solid rgba(128, 128, 128, 0.493);
+        width: 408px;
+        margin-left: 15px;
+        margin-top: 68px;
+        border-radius: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    
+    .icon-print {
+        width: 40px;
+        margin-right: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+    .icon-report {
+        width: 20px;
+        margin-right: 10px;
+        margin-left: 55px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+    .padding-horizontal-50 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
